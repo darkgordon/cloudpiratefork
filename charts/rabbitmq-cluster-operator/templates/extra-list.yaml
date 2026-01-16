@@ -1,4 +1,0 @@
-{{- range .Values.extraDeploy }}
----
-{{ include "cloudpirates.tplvalues.render" (dict "value" . "context" $) }}
-{{- end }}
